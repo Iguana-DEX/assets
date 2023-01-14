@@ -1,4 +1,4 @@
-# Balancer Asset Repository
+# Iguana Asset Repository
 
 ## Lists
 
