@@ -1,6 +1,7 @@
 import { Interface } from "@ethersproject/abi";
 import { Contract } from "@ethersproject/contracts";
 import { InfuraProvider } from "@ethersproject/providers";
+import { BscscanProvider } from "@ethers-ancillary/bsc";
 import { parseBytes32String } from "@ethersproject/strings";
 import { TokenInfo } from "@uniswap/token-lists";
 
@@ -14,11 +15,15 @@ const providers = {
   polygon: new InfuraProvider("matic", infuraKey),
   arbitrum: new InfuraProvider("arbitrum", infuraKey),
   optimism: new InfuraProvider("optimism", infuraKey),
+  bsc: new BscscanProvider("bsc-mainnet"),
+  bsctestnet: new BscscanProvider("bsc-testnet"),
 };
 
 export const chainIdMap = {
   homestead: 1,
   goerli: 5,
+  bsc: 56,
+  bsctestnet: 97,
   polygon: 137,
   arbitrum: 42161,
   optimism: 10,
@@ -30,6 +35,8 @@ const multicallContract = {
   polygon: "0xe2530198A125Dcdc8Fc5476e07BFDFb5203f1102",
   arbitrum: "0xd67950096d029af421a946ffb1e04c94caf8e256",
   optimism: "0x2dc0e2aa608532da689e89e237df582b783e552c",
+  bsc: "0xfF6FD90A470Aaa0c1B8A54681746b07AcdFedc9B",
+  bsctestnet: "0xA6949B8FBa9DF546b9c66F98CFCa960A96E3b68e",
 };
 
 const erc20ABI = [

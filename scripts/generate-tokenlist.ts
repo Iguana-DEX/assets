@@ -1,4 +1,5 @@
-require("dotenv").config();
+import dotenv from "dotenv";
+dotenv.config();
 
 import fs from "fs";
 
@@ -136,7 +137,7 @@ async function generate(
     name: "Balancer",
     timestamp,
     logoURI:
-      "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
+      "https://raw.githubusercontent.com/iguana-dex/assets/main/iguana-brand-assets/iguana_on_branch.jpeg",
     keywords: ["balancer", name],
     version: newVersion,
     tokens: tokens.sort((a, b) => (a.name > b.name ? 1 : -1)),

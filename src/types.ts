@@ -6,12 +6,14 @@ export enum Network {
   Polygon = "polygon",
   Arbitrum = "arbitrum",
   Optimism = "optimism",
+  Bsc = "bsc",
+  BscTestnet = "bsctestnet",
 }
 
 export enum List {
   Listed = "listed",
-  Vetted = "vetted",
   Untrusted = "untrusted",
+  Vetted = "vetted",
 }
 
 export type MinimalTokenInfo = Pick<TokenInfo, "name" | "symbol" | "decimals">;

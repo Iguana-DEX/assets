@@ -13,13 +13,15 @@ const platformIdMap: Record<Network, string> = {
   [Network.Polygon]: "polygon-pos",
   [Network.Arbitrum]: "arbitrum-one",
   [Network.Optimism]: "optimistic-ethereum",
+  [Network.Bsc]: "binance-smart-chain",
+  [Network.BscTestnet]: "bsc-testnet",
 };
 
 export const getCoingeckoMetadata = async (
   network: Network,
   address: string
 ): Promise<[string | null, Partial<TokenInfo>]> => {
-  if (network === Network.Goerli) return [null, {}];
+  if ([Network.Goerli, Network.BscTestnet].includes(network)) return [null, {}];
 
   let data;
   try {

@@ -18,6 +18,7 @@
     "prettier": "^2.3.1"
   },
   "dependencies": {
+    "@ethers-ancillary/bsc": "^0.0.3",
     "@ethersproject/abi": "^5.7.0",
     "@ethersproject/address": "^5.7.0",
     "@ethersproject/contracts": "^5.7.0",

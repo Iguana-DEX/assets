@@ -15,6 +15,8 @@ export const networkNameMap: Record<Network, string> = {
   [Network.Polygon]: "polygon",
   [Network.Arbitrum]: "ethereum",
   [Network.Optimism]: "ethereum",
+  [Network.Bsc]: "smartchain",
+  [Network.BscTestnet]: "smartchain",
 };
 
 export async function getExistingMetadata(
@@ -32,7 +34,7 @@ export async function getExistingMetadata(
     const address = assetFile.split(".png")[0];
     return {
       address: address,
-      logoURI: `https://raw.githubusercontent.com/balancer-labs/assets/master/assets/${address.toLowerCase()}.png`,
+      logoURI: `https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/${address.toLowerCase()}.png`,
     };
   });
 
@@ -79,7 +81,69 @@ export function getMainnetAddress(address: string): string {
     "0x5cEA6A84eD13590ED14903925Fa1A73c36297d99":
       "0x804cdb9116a10bb78768d3252355a1b18067bf8f",
     "0x13ACD41C585d7EbB4a9460f7C8f50BE60DC080Cd":
-      "0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2"
+      "0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2",
+
+    // BscTestnet
+    // WBNB
+    // "":
+    //   "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    // DAI
+    "0xEC5dCb5Dbf4B114C9d0F65BcCAb49EC54F6A0867":
+      "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+    // USDC
+    "0x64544969ed7EBf5f083679233325356EbE738930":
+      "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+    // USDT
+    "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd":
+      "0x55d398326f99059ff775485246999027b3197955",
+    // BUSD
+    "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee":
+      "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+    // BTC
+    "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8":
+      "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+    // ETH
+    "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378":
+      "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+    // XRP
+    "0xa83575490D7df4E2F47b7D38ef351a2722cA45b9":
+      "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+    // // DOT
+    // "":
+    //   "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+    // // DOGE
+    // "":
+    //   "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+    // // ADA
+    // "":
+    //   "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+    // // AVAX
+    // "":
+    //   "0x1CE0c2827e2eF14D5C4f29a091d735A204794041",
+    // // MATIC
+    // "":
+    //   "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+    // // LTC
+    // "":
+    //   "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
+    // // SHIB
+    // "":
+    //   "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",
+    // // TRX
+    // "":
+    //   "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
+    // // UNI
+    // "":
+    //   "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
+    // // ATOM
+    // "":
+    //   "0x0Eb3a705fc54725037CC9e008bDede697f62F335",
+    // // LINK
+    // "":
+    //   "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
+    // // EOS
+    // "":
+    //   "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6",
   };
   return map[address] || address;
 }
