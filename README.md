@@ -1,12 +1,15 @@
-# Iguana Asset Repository
+# 🦎 Iguana Asset Repository
 
-## Lists
+<p align="center">
+  <img width="320" height="246" src="https://user-images.githubusercontent.com/34973295/206001164-103361a4-086e-4e12-83e6-8a2d7ccd4d59.png">
+</p>
 
-* `eligible.json`: assets eligible for BAL mining as per weekly proposals
-* `listed.json`: assets listed on balancer.exchange
-* `ui-not-eligible.json`: assets vetted by community members
-* `untrusted.json`: assets that are incompatible with Balancer
+## List types
 
-## Generated
+* 'listed.tokenlist.json': assets listed on [Iguana](https://iguanadex.com)
+* 'untrusted.tokenlist.json': assets that are incompatible with [Iguana](https://iguanadex.com)
+* 'vetted.tokenlist.json': assets reviewed by the team and deemed to be legit
 
-To generate, run `npm run generate`.
+## List generation
+
+To generate lists for all supported networks, simply run 'npm run generate' from the root directory ('assets') in your Terminal.
