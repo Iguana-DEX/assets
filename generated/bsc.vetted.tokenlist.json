@@ -77,6 +77,14 @@
             "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xCC42724C6683B7E57334c4E856f4c9965ED682bD.png"
         },
         {
+            "address": "0x570a5d26f7765ecb712c0924e4de545b89fd43df",
+            "chainId": 56,
+            "name": "SOLANA",
+            "symbol": "SOL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x570a5d26f7765ecb712c0924e4de545b89fd43df.png"
+        },
+        {
             "address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
             "chainId": 56,
             "name": "Binance-Peg Polkadot Token",
@@ -179,6 +187,30 @@
             "symbol": "CAKE",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+        },
+        {
+            "address": "0x55d398326f99059fF775485246999027B3197955",
+            "chainId": 56,
+            "name": "Binance-Peg BSC-USD",
+            "symbol": "USDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x55d398326f99059fF775485246999027B3197955.png"
+        },
+        {
+            "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+            "chainId": 56,
+            "name": "Binance-Peg USD Coin",
+            "symbol": "USDC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+        },
+        {
+            "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+            "chainId": 56,
+            "name": "Binance-Peg DAI Token",
+            "symbol": "DAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
         }
     ]
 }
