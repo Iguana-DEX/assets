@@ -1,0 +1,15 @@
+{
+    "name": "Balancer",
+    "timestamp": "2023-01-15T00:00:00.000Z",
+    "logoURI": "https://raw.githubusercontent.com/iguana-dex/assets/main/iguana-brand-assets/iguana_on_branch.jpeg",
+    "keywords": [
+        "balancer",
+        "untrusted"
+    ],
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+    },
+    "tokens": []
+}
