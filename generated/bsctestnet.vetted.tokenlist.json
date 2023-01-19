@@ -1,7 +1,7 @@
 {
-    "name": "Balancer",
+    "name": "Iguana",
     "timestamp": "2023-01-15T00:00:00.000Z",
-    "logoURI": "https://raw.githubusercontent.com/iguana-dex/assets/main/iguana-brand-assets/iguana_on_branch.jpeg",
+    "logoURI": "https://raw.githubusercontent.com/iguana-dex/assets/main/iguana-brand-assets/icon.webp",
     "keywords": [
         "balancer",
         "vetted"
@@ -18,7 +18,7 @@
             "name": "Binance USD",
             "symbol": "BUSD",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D97.png"
+            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
         },
         {
             "address": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
@@ -34,7 +34,7 @@
             "name": "ETH",
             "symbol": "ETH",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x2170Ed0880ac9A755fd29B2688997BD959F933F8.png"
+            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
         },
         {
             "address": "0xE906CBeCd4A17DF62B8d6c8C82F3882af25295f5",
@@ -50,7 +50,7 @@
             "name": "Binance-Peg XRP Token",
             "symbol": "XRP",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x1D2F0da169ceB9fC7B3144628dB197f3F6c60dBE.png"
+            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE.png"
         },
         {
             "address": "0x92DD70182813CD3Da0f1B1eac914BaD6e0eD7AfD",
@@ -74,7 +74,7 @@
             "name": "Matic Token",
             "symbol": "MATIC",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xCC42724C6683B7E57334c4E897f4c9965ED682bD.png"
+            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xCC42724C6683B7E57334c4E856f4c9965ED682bD.png"
         },
         {
             "address": "0x5Ba18625A9E42f9E4755c5389Af65070d818542f",
@@ -106,7 +106,7 @@
             "name": "Binance-Peg SHIBA INU Token",
             "symbol": "SHIB",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x2859e4544C4bB03966803b044A93973Bd2D0DD4D.png"
+            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x2859e4544C4bB03966803b044A93563Bd2D0DD4D.png"
         },
         {
             "address": "0xbb4b4004869Ee0A6942A6A5a0657c32a632B38Ed",
@@ -122,7 +122,7 @@
             "name": "Binance-Peg Uniswap",
             "symbol": "UNI",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xBf5140A22578168FD972DCcF235E5D43A02ce9B1.png"
+            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xBf5140A22578168FD562DCcF235E5D43A02ce9B1.png"
         },
         {
             "address": "0x14D440Cd12F99B676491cD6E7e606AD0F7ea9C51",
@@ -170,7 +170,7 @@
             "name": "Binance-Peg EOS Token",
             "symbol": "EOS",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x97b6fB708fC5732DEC1Afc8D8597423A2EDcCbD6.png"
+            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6.png"
         },
         {
             "address": "0x5fC243E2A22EeAD26B2Ee1D31ED702F3970fb738",

@@ -22,11 +22,11 @@ const providers = {
 export const chainIdMap = {
   homestead: 1,
   goerli: 5,
+  optimism: 10,
   bsc: 56,
   bsctestnet: 97,
   polygon: 137,
   arbitrum: 42161,
-  optimism: 10,
 };
 
 const multicallContract = {
