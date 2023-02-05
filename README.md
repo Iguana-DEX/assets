@@ -6,8 +6,8 @@
 
 ## List types
 
-* 'listed.tokenlist.json': assets listed on [Iguana](https://iguanadex.com)
-* 'untrusted.tokenlist.json': assets that are incompatible with [Iguana](https://iguanadex.com)
+* 'listed.tokenlist.json': assets listed on [IguanaDEX](https://iguanadex.com)
+* 'untrusted.tokenlist.json': assets that are incompatible with [IguanaDEX](https://iguanadex.com)
 * 'vetted.tokenlist.json': assets reviewed by the team and deemed to be legit
 
 ## List generation
