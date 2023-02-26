@@ -1,216 +1,221 @@
 {
-    "name": "Iguana",
-    "timestamp": "2023-01-15T00:00:00.000Z",
-    "logoURI": "https://raw.githubusercontent.com/iguana-dex/assets/main/iguana_brand_assets/icon.webp",
-    "keywords": [
-        "balancer",
-        "vetted"
-    ],
-    "version": {
-        "major": 1,
-        "minor": 0,
-        "patch": 0
+  "name": "IguanaDEX",
+  "timestamp": "2023-01-26T00:00:00.000Z",
+  "logoURI": "https://raw.githubusercontent.com/iguana-dex/assets/main/iguana_brand_assets/icon.webp",
+  "keywords": ["iguana", "vetted"],
+  "version": {
+    "major": 1,
+    "minor": 1,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "address": "0x43159E6e6873C976E0236A39E6491Ea9a879BE6a",
+      "chainId": 97,
+      "name": "Binance USD",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
     },
-    "tokens": [
-        {
-            "address": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-            "chainId": 97,
-            "name": "Binance USD",
-            "symbol": "BUSD",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
-        },
-        {
-            "address": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
-            "chainId": 97,
-            "name": "BTCB",
-            "symbol": "BTCB",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c.png"
-        },
-        {
-            "address": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
-            "chainId": 97,
-            "name": "ETH",
-            "symbol": "ETH",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
-        },
-        {
-            "address": "0xE906CBeCd4A17DF62B8d6c8C82F3882af25295f5",
-            "chainId": 97,
-            "name": "Wrapped BNB",
-            "symbol": "WBNB",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
-        },
-        {
-            "address": "0xa83575490D7df4E2F47b7D38ef351a2722cA45b9",
-            "chainId": 97,
-            "name": "Binance-Peg XRP Token",
-            "symbol": "XRP",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE.png"
-        },
-        {
-            "address": "0x92DD70182813CD3Da0f1B1eac914BaD6e0eD7AfD",
-            "chainId": 97,
-            "name": "Binance-Peg Dogecoin Token",
-            "symbol": "DOGE",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xbA2aE424d960c26247Dd6c32edC70B295c744C43.png"
-        },
-        {
-            "address": "0x8197E8f4C358B9be57a09c6063bA4591Ea502E98",
-            "chainId": 97,
-            "name": "Binance-Peg Cardano Token",
-            "symbol": "ADA",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47.png"
-        },
-        {
-            "address": "0x2397355a668Bb2b8B70A2873F1EB559b21ed1A8d",
-            "chainId": 97,
-            "name": "Matic Token",
-            "symbol": "MATIC",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xCC42724C6683B7E57334c4E856f4c9965ED682bD.png"
-        },
-        {
-            "address": "0x5Ba18625A9E42f9E4755c5389Af65070d818542f",
-            "chainId": 97,
-            "name": "Binance-Peg Polkadot Token",
-            "symbol": "DOT",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402.png"
-        },
-        {
-            "address": "0xd11A7f26576dFD64Ca94B7092402642516c7603E",
-            "chainId": 97,
-            "name": "Binance-Peg Litecoin Token",
-            "symbol": "LTC",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x4338665CBB7B2485A8855A139b75D5e34AB0DB94.png"
-        },
-        {
-            "address": "0xe81dbCAD64f7c0D16424348811416567f03eD877",
-            "chainId": 97,
-            "name": "SOLANA",
-            "symbol": "SOL",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x570a5d26f7765ecb712c0924e4de545b89fd43df.png"
-        },
-        {
-            "address": "0xb655afddA2a8f60126DFC8A7Ae2795b100E66178",
-            "chainId": 97,
-            "name": "Binance-Peg SHIBA INU Token",
-            "symbol": "SHIB",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x2859e4544C4bB03966803b044A93563Bd2D0DD4D.png"
-        },
-        {
-            "address": "0xbb4b4004869Ee0A6942A6A5a0657c32a632B38Ed",
-            "chainId": 97,
-            "name": "TRON",
-            "symbol": "TRX",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B.png"
-        },
-        {
-            "address": "0x0DCAF36c5774a04eA721069f0244076226aE0968",
-            "chainId": 97,
-            "name": "Binance-Peg Uniswap",
-            "symbol": "UNI",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xBf5140A22578168FD562DCcF235E5D43A02ce9B1.png"
-        },
-        {
-            "address": "0x14D440Cd12F99B676491cD6E7e606AD0F7ea9C51",
-            "chainId": 97,
-            "name": "Binance-Peg Avalanche Token",
-            "symbol": "AVAX",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x1CE0c2827e2eF14D5C4f29a091d735A204794041.png"
-        },
-        {
-            "address": "0x797DF1c15eB8A1Fdbe81ce118c4A787699Bb0C2E",
-            "chainId": 97,
-            "name": "Binance-Peg Cosmos Token",
-            "symbol": "ATOM",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x0Eb3a705fc54725037CC9e008bDede697f62F335.png"
-        },
-        {
-            "address": "0xa3E34B94352c01EafF58eb1C6a1D2275316E8906",
-            "chainId": 97,
-            "name": "Binance-Peg Ethereum Classic",
-            "symbol": "ETC",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x3d6545b08693daE087E957cb1180ee38B9e3c25E.png"
-        },
-        {
-            "address": "0xdf2B91419D08bF3f70EBdaA45175c4485540E3B3",
-            "chainId": 97,
-            "name": "Binance-Peg ChainLink Token",
-            "symbol": "LINK",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD.png"
-        },
-        {
-            "address": "0x6d81740A0AEF5ba3fa2c3ff8e49438D00a13AFEd",
-            "chainId": 97,
-            "name": "Binance-Peg Bitcoin Cash Token",
-            "symbol": "BCH",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf.png"
-        },
-        {
-            "address": "0xfe67F0bC56c3C84fdAC21788799f6dC1952BE683",
-            "chainId": 97,
-            "name": "Binance-Peg EOS Token",
-            "symbol": "EOS",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6.png"
-        },
-        {
-            "address": "0x5fC243E2A22EeAD26B2Ee1D31ED702F3970fb738",
-            "chainId": 97,
-            "name": "1INCH Token",
-            "symbol": "1INCH",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x111111111117dC0aa78b770fA6A738034120C302.png"
-        },
-        {
-            "address": "0x243f7a225930392E9C206f25BA9200862F7fe8F8",
-            "chainId": 97,
-            "name": "PancakeSwap Token",
-            "symbol": "CAKE",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
-        },
-        {
-            "address": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
-            "chainId": 97,
-            "name": "Binance-Peg BSC-USD",
-            "symbol": "USDT",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x55d398326f99059fF775485246999027B3197955.png"
-        },
-        {
-            "address": "0x64544969ed7EBf5f083679233325356EbE738930",
-            "chainId": 97,
-            "name": "Binance-Peg USD Coin",
-            "symbol": "USDC",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
-        },
-        {
-            "address": "0xEC5dCb5Dbf4B114C9d0F65BcCAb49EC54F6A0867",
-            "chainId": 97,
-            "name": "Binance-Peg DAI Token",
-            "symbol": "DAI",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
-        }
-    ]
+    {
+      "address": "0x274Dad29FFDab82900e814C56121318EF93cbC0E",
+      "chainId": 97,
+      "name": "BTCB Token",
+      "symbol": "BTCB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c.png"
+    },
+    {
+      "address": "0x744516cf23546B86442CfCd0b7e288B53b0b7355",
+      "chainId": 97,
+      "name": "Binance-Peg Ethereum Token",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
+    },
+    {
+      "address": "0x9cC94f582B90013F1293635F1A71bc495D42801a",
+      "chainId": 97,
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+    },
+    {
+      "address": "0x8696394C71E9719c695b21a346307FcCD53DEE4D",
+      "chainId": 97,
+      "name": "Binance-Peg XRP Token",
+      "symbol": "XRP",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE.png"
+    },
+    {
+      "address": "0xe259Fc2CD7E8705b529787d579EFE640a10679df",
+      "chainId": 97,
+      "name": "Dogecoin Token",
+      "symbol": "DOGE",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xbA2aE424d960c26247Dd6c32edC70B295c744C43.png"
+    },
+    {
+      "address": "0x685088320cd2e41081E8306545eD0beDd90ef054",
+      "chainId": 97,
+      "name": "Cardano Token",
+      "symbol": "ADA",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47.png"
+    },
+    {
+      "address": "0x5aa1f4dC92f8576BA4b2Cd7A62D1AdDA87e10aE0",
+      "chainId": 97,
+      "name": "Matic Token",
+      "symbol": "MATIC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xCC42724C6683B7E57334c4E856f4c9965ED682bD.png"
+    },
+    {
+      "address": "0x9a48ed91D5e7a44DA424e02A04f02E8cd6E6306a",
+      "chainId": 97,
+      "name": "Polkadot Token",
+      "symbol": "DOT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402.png"
+    },
+    {
+      "address": "0x5813CDcD8aa715175C4b12ECb869Ae5D23A994a4",
+      "chainId": 97,
+      "name": "Litecoin Token",
+      "symbol": "LTC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x4338665CBB7B2485A8855A139b75D5e34AB0DB94.png"
+    },
+    {
+      "address": "0xe6a15990be98154285a569eB2543a9E713584968",
+      "chainId": 97,
+      "name": "SOLANA",
+      "symbol": "SOL",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x570a5d26f7765ecb712c0924e4de545b89fd43df.png"
+    },
+    {
+      "address": "0x922D9AAa08017619bcFE4D69d4d76De66135Fb88",
+      "chainId": 97,
+      "name": "Binance-Peg SHIBA INU Token",
+      "symbol": "SHIB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x2859e4544C4bB03966803b044A93563Bd2D0DD4D.png"
+    },
+    {
+      "address": "0xC0139A8C4042509D450983f013020c00b2204590",
+      "chainId": 97,
+      "name": "TRON",
+      "symbol": "TRX",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B.png"
+    },
+    {
+      "address": "0xC7D7E72c631715eE5F5B1aaA2389FdcA59AB3785",
+      "chainId": 97,
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xBf5140A22578168FD562DCcF235E5D43A02ce9B1.png"
+    },
+    {
+      "address": "0x505e70b340Dec3a3bd17D5e8B8d7B898aC608e47",
+      "chainId": 97,
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x1CE0c2827e2eF14D5C4f29a091d735A204794041.png"
+    },
+    {
+      "address": "0xF0de48630513Ad6a6d3B87a536B5798c48F5C3E1",
+      "chainId": 97,
+      "name": "Cosmos Token",
+      "symbol": "ATOM",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x0Eb3a705fc54725037CC9e008bDede697f62F335.png"
+    },
+    {
+      "address": "0x01b7443ea551836770Ee13F100E38a6720BE82a8",
+      "chainId": 97,
+      "name": "Ethereum Classic",
+      "symbol": "ETC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x3d6545b08693daE087E957cb1180ee38B9e3c25E.png"
+    },
+    {
+      "address": "0x84b9B910527Ad5C03A9Ca831909E21e236EA7b06",
+      "chainId": 97,
+      "name": "ChainLink Token",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD.png"
+    },
+    {
+      "address": "0x6d81740A0AEF5ba3fa2c3ff8e49438D00a13AFEd",
+      "chainId": 97,
+      "name": "Bitcoin Cash Token",
+      "symbol": "BCH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf.png"
+    },
+    {
+      "address": "0xb2FD17269b33b8828b5801B3E18115d3f2Fa5525",
+      "chainId": 97,
+      "name": "EOS Token",
+      "symbol": "EOS",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6.png"
+    },
+    {
+      "address": "0x573b17462413d0ecB7be0302d0ad339b6f68888A",
+      "chainId": 97,
+      "name": "1INCH Token",
+      "symbol": "1INCH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x111111111117dC0aa78b770fA6A738034120C302.png"
+    },
+    {
+      "address": "0x9AF2E9C00f051687F8E49Bd2092cD8e810B9c535",
+      "chainId": 97,
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+    },
+    {
+      "address": "0x48BAE3f70680B7a30794d4E37cB0FDF08e2928e7",
+      "chainId": 97,
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x55d398326f99059fF775485246999027B3197955.png"
+    },
+    {
+      "address": "0x06BB2D48a80f22CeDB3A82439dd05A11D94EEaa5",
+      "chainId": 97,
+      "name": "USDC Token",
+      "symbol": "USDC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "address": "0xbf7E58B3d5315F9976294A0f27c87B9296b77074",
+      "chainId": 97,
+      "name": "Dai Token",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
+    },
+    {
+      "address": "0x4576742e2c1DE84ad05a4763c865B6DFA27C1D44",
+      "chainId": 97,
+      "name": "Hay Destablecoin",
+      "symbol": "HAY",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5.png"
+    }
+  ]
 }
