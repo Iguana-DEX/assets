@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Iggies Club",
+    "description": "A place for iggies to invest in the funding rounds of promising projects.",
+    "bsc_address": "0x9FbE3074B8689860067D807203B0a08ce850829D",
+    "polygon_address": "0x123",
+    "arbitrum_address": "0x123",
+    "optimism_address": "0x123",
+    "avax_address": "0x123",
+    "ethereum_address": "0x123"
+  },
+  {
+    "name": "Dewhales.capital",
+    "description": "Top DeFi traders investing early in top projects.",
+    "bsc_address": "0x566b2b11Fa9C2a258Eb69cde275d2F4CFA6c5C5c",
+    "polygon_address": "0x123",
+    "arbitrum_address": "0x123",
+    "optimism_address": "0x123",
+    "avax_address": "0x123",
+    "ethereum_address": "0x123"
+  }
+]
